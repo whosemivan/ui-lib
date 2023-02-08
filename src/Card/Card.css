@@ -1,0 +1,29 @@
+.card {
+    background-color: #70FF95;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #151B17;
+    box-shadow: 0px 4px 13px rgba(21, 27, 23, 0.2);
+}
+
+.card__title {
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.card__description {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.card__link {
+    color: #151B17;
+}
+
+.card__image {
+    width: 90%;
+}

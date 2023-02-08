@@ -1,0 +1,31 @@
+.button {
+     font-family: 'Noto Serif', serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 22px;
+     color: #151B17;
+     border: none;
+     background: #70FF95;
+     border-radius: 20px;
+     padding: 5px 50px;
+     cursor: pointer;
+     opacity: 1;
+     transition: all 0.5s linear;
+ }
+
+ .button:hover {
+     opacity: 0.8;
+ }
+
+ .button--sm {
+    padding: 5px 30px;
+    font-size: 14px;
+ }
+ .button--lg {
+    padding: 10px 80px;
+ }
+
+ .button--outline {
+     border: 2px solid #70FF95;
+     background: transparent;
+ }

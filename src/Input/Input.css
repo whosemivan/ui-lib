@@ -1,0 +1,33 @@
+.input-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-block__input {
+    border: 2px solid #151B17;
+    border-radius: 20px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 20px;
+}
+
+.input-block__input--sm {
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.input-block__input--lg {
+    padding: 20px 20px;
+}
+
+.input-block__label {
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.input-block__input--filled {
+    background-color: #a9f0bc;
+    border: none;
+}

@@ -10,8 +10,8 @@ export default {
 
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
-export const RedButton = Template.bind({});
-RedButton.args = {
+export const BlueButton = Template.bind({});
+BlueButton.args = {
     size: 'sm',
     designStyle: 'solid',
     bgColor: '#36D8FF',

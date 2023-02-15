@@ -30,7 +30,9 @@ const Input: FC<InputProps> = ({ inputSize, placeholder, label, widthBlock, bord
         <div className='input-block' style={{
             width: widthBlock
         }}>
-            <label className='input-block__label'>{label}</label>
+            {
+                label && <label className='input-block__label'>{label}</label>
+            }
             <input className={rootClasses.join(' ')} placeholder={placeholder} {...props} style={{
                 borderColor: borderColor
             }} />
